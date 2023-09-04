@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Rohan social</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+      <nav>
+            <div class="container">
+                <h2 class="logo">RohanSocial</h2>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input
+                    type="search"
+                    placeholder="Search for creators, inspirations and projects"
+                    />
+                </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Create</label>
+                    <div class="profile-pic">
+                        <img src="rohan.jpg" alt="pic 1" />
+                    </div>
+                </div>
+            </div>
+      </nav>
+
+      <main>
+          <div class="container">
+              <div class="left">
+                  <a class="profile">
+                      <div class="profile-pic">
+                        <img src="rohan.jpg">
+                      </div>
+                      <div class="handle">
+                          <h4>Rohan
+                          <p class="text-muted">@Rohan</p>
+                      </div>
+                  </a>
+                  <div class="sidebar">
+                    <a class="menu-item active">
+                      <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-compass"></i></span> <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                      <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span> <h3>Notifications</h3>
+                      <div class="notifications-popup">
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="mrunali1.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Mrunali Shide</b> accepted your friend request
+                                  <small class="text-muted">2 DAYS AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="Rutu1.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Rutuja Patil</b> commented on your post
+                                  <small class="text-muted">1 HOUR AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="shiraj.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Shriraj Mali</b> and 210 other liked your post
+                                  <small class="text-muted">4 MINUTES AGO</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="shubham.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Shubham Patil</b> started following you
+                                  <small class="text-muted"> 11 HOURS AGO</small>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <i class="uil uil-envelope"><small class="notification-count">6</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-analytics"></i></span> <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                    </a>
+                    
+                    <label class="btn btn-primary" for="create-post">Create Post</label>
+                </div>
+              </div>
+              
+
+
+              <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="sucess.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="vedant.jpg" alt="">
+                        </div>
+                        <p class="name">Vedant Shinde</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="nitin.jpg" alt="">
+                        </div>
+                        <p class="name">Nitin Patil</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="sakshi1.jpg" alt="">
+                        </div>
+                        <p class="name">Sakshi Patil</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="vasanti1.jpg" alt="">
+                        </div>
+                        <p class="name">Vasanti Mali</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="mahek2.jpg" alt="">
+                        </div>
+                        <p class="name">Mahek Mujawar</p>
+                    </div>
+                </div>
+
+                <form class="create-post">
+                    <div class="profile-pic">
+                        <img src="shubham.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind Rohan?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="Anuraj.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Anuraj Patil</h3>
+                                 <small>Miraj, 20 MINUTES AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="shubham.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="shiraj.jpg"></span>
+                             <span><img src="shiddesh.jpg"></span>
+                             <span><img src="shubham.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>220 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Saniya Mulani</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 130 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="nature1.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Rutvika Mali</h3>
+                                 <small>Kupwad, 2 HOUR AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="Anuraj.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="sucess.jpg"></span>
+                             <span><img src="vasanti1.jpg"></span>
+                             <span><img src="shiddesh.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>200 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Shiddesh Mali</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 40 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="pic.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3></h3>
+                                 <small>Solapur, 9 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="sucessful.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="mahek2.jpg"></span>
+                             <span><img src="vasanti1.jpg"></span>
+                             <span><img src="nitin.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>130 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Nitin Mali</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 15 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="sucess.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Rupali Gharge</h3>
+                                 <small>USA, 3 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="happy.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="nitin.jpg"></span>
+                             <span><img src="mrunali1.jpg"></span>
+                             <span><img src="mahek1.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>280 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Rutik Gharge</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 110 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="sucess.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Sheryas Patil</h3>
+                                 <small>Pune, 2 DAY AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="upse.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="sakshi1.jpg"></span>
+                             <span><img src="mrunali1.jpg"></span>
+                             <span><img src="nature1.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>520 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Sheryas Patil</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 120 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="sanskruti.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Sankrut Gundapkar</h3>
+                                 <small>Kupwad, 60 MINUTES AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="ca.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="vaishnavi.jpg"></span>
+                             <span><img src="sanskruti.jpg"></span>
+                             <span><img src="shravani.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>150 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Sankrut Gundapkar</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 50 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="shravani.jpg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Sravani Admute</h3>
+                                 <small>Bangalore, 10 HOURS AGO</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="ca1.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="sanskruti.jpg"></span>
+                             <span><img src="vaishnavi.jpg"></span>
+                             <span><img src="mrunali1.jpg"></span>
+                             ,<p>Liked by <b>Enrest Achiever</b>snd <b>530 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>shravani Admute</b>.
+                            <span class="hash-tag">#lifestyle</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 290 comments</div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="right">
+                  <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <span><i class="uil uil-edit"></i></span>
+                    </div>
+  
+                    <div class="search-bar">
+                        <span><i class="uil uil-search"></i></span>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+  
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="shubham.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Shubham Shinde</h5>
+                            <p class="text-muted">Just woke up bruh..</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="shubham.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Shubham Gundapkar</h5>
+                            <p class="text-bold">2 New Messages</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="shravani.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>shravani Admute</h5>
+                            <p class="text-muted">Lol u right</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="mahek1.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Mahek Jamadar</h5>
+                            <p class="text-bold">Birthday tomorrow!!</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="vaishnavi.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>vaishnavi Salunkhe</h5>
+                            <p class="text-muted">Ssup?</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="vasanti1.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Vasanti Mali</h5>
+                            <p class="text-bold">3 New Messages</p>
+                        </div>
+                    </div>                                                        
+                </div>
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="sakshi1.jpg">
+                            </div>
+                            <div>
+                                <h5>Sakshi Patil</h5>
+                                <p class="text-muted">24 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="shree.jpg">
+                            </div>
+                            <div>
+                                <h5>Maitri Pawar</h5>
+                                <p class="text-muted">2 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="krutika.jpg">
+                            </div>
+                            <div>
+                                <h5>Krutika Gaiykwad</h5>
+                                <p class="text-muted">2 mutual friend</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+            
+              </div> 
+
+
+               
+              </div>
+          </div>
+      </main>
+
+        <script src="index.js"></script>
+  </body>
+  
+</html>
